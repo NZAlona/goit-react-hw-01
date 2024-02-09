@@ -1,6 +1,6 @@
 import css from "./Profile.module.css";
 
-export const Profile = ({name, location, tag, image, stats : {followers, views, likes}}) => {
+export const Profile = ({ name, location, tag, image, stats: { followers, views, likes } } ) => {
     return (
         <div className={css.container}>
 <div className={css.imgWrapper}>
