@@ -1,0 +1,47 @@
+.containerList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  min-width: 385px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+.items {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 100%;
+  width: 80px;
+}
+
+.divContent {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.names {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.onlineStatus {
+  composes: names;
+  font-size: medium;
+  margin-top: 0px;
+  font-size: larger;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.imgIcons {
+  display: block;
+  margin: 0 auto;
+}
